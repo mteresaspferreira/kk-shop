@@ -3,11 +3,11 @@
 ### Setup
 
 #### Instalar dependências
-`cd kk-store`
-`$ npm install`
+- `cd kk-store`
+- `npm install`
 
 #### Iniciar o projeto: http://localhost:5173/ 
-`$ npm run dev`
+- `npm run dev`
 
 
 #### Notas:
