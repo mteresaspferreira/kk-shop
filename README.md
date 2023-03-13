@@ -3,6 +3,7 @@
 ### Setup
 
 #### Instalar dependências
+`cd kk-store`
 `$ npm install`
 
 #### Iniciar o projeto: http://localhost:5173/ 
