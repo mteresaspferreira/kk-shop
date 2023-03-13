@@ -34,7 +34,7 @@ export const ItemsSummary = ({ products }) => {
                     <div className="flex justify-between">
                       <h3 className="text-sm">
                         <Link
-                          to={`/productDetail/${i.product.id}`}
+                          to={`/product/${i.product.id}`}
                           className="font-medium text-indigo-700 hover:text-gray-800"
                         >
                           {i.product.title}
