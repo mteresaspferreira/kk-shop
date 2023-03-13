@@ -2,7 +2,7 @@
 
 ### Setup
 
-#### instalar dependências
+#### Instalar dependências
 `$ npm install`
 
 #### Iniciar o projeto: http://localhost:5173/ 
