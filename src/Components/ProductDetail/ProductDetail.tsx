@@ -35,15 +35,12 @@ export const ProductDetail = () => {
   }, [id]);
 
   const handlerAddToCart = () => {
-    //NOTA: mensagem de sucesso
     toast.success(`${product.title} has been added to yout cart.`);
     addProductToCart({ product, quantity: 1 });
   };
-  // console.log(product.title);
 
   return (
     <>
-      {/* NOTA: ver porque ficou com esta altura */}
       {isLoading && (
         <p className="flex justify-center align-middle">Loading...</p>
       )}

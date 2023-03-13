@@ -14,6 +14,7 @@ export const ProductGallery = ({ images }: IGallery) => {
       .matchMedia("(min-width: 1024px)")
       .addEventListener("change", (e) => setMatches(e.matches));
   }, []);
+
   return (
     <div className="mt-8 lg:col-span-7 lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0">
       <h2 className="sr-only">Images</h2>

@@ -1,27 +1,10 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../../Context/CartContext";
-import { Menu } from "../../Menu/Menu";
-import { Dialog } from "@headlessui/react";
-import {
-  Bars3Icon,
-  ShoppingBagIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 import kkStoreLogo from "../../../assets/kk-store-logo.svg";
 
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-];
-
-// NOTA: SEPARAR EM COMPONENTS E TER CUIDADO COM O MENU DESKTOP E MOBILE
-
 export const Header = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   //context
   const { cartItems } = useContext(CartContext);
 

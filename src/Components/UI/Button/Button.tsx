@@ -1,6 +1,9 @@
-import React from "react";
+interface IButton {
+  text: string;
+  handlerClick: () => void;
+}
 
-export const Button = ({ text, handlerClick }) => {
+export const Button = ({ text, handlerClick }: IButton) => {
   return (
     <button
       type="submit"
